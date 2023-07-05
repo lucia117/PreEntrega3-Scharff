@@ -1,0 +1,32 @@
+.card-body {
+    background-color: nth($colors, 3);
+
+    h2 {
+        font-size: 60px;
+        color: nth($colors, 5);
+        text-align: center;
+    }
+}
+
+.card-img {
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.pricing-btn {
+    display: block;
+    background: #333333;
+    color: nth($colors, 3);
+    font-size: 14px;
+    padding: 17px 30px 16px;
+    line-height: normal;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-decoration: none;
+    text-align: center;
+
+    &:hover {
+        background: nth($colors, 5);
+    }
+}

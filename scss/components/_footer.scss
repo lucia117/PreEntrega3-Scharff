@@ -1,0 +1,24 @@
+.footer {
+    background: nth($colors, 1 );
+    color: nth($colors, 3);
+}
+.links {
+    ul {
+        list-style-type: none;
+        li {
+            a {
+                color: nth($colors, 3);
+                text-decoration: none;
+            }
+    
+            &:hover {
+                color: nth($colors, 5);
+            }
+        }
+    }
+
+    
+}
+.copyright p {
+    border-top: 1px solid nth($colors, 4);
+}

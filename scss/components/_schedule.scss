@@ -1,0 +1,33 @@
+.tbl {
+    width: 100%;
+    color: nth($colors, 3);
+}
+
+.tbl-header {
+    background-color: nth($colors, 5);
+}
+
+.tbl-content {
+    height: 300px;
+    margin-top: 0px;
+    text-align: center;
+}
+
+th {
+    padding: 20px 15px;
+    text-align: left;
+    font-weight: 600;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+td {
+    padding: 15px;
+    text-align: left;
+    vertical-align: middle;
+    font-weight: 300;
+    font-size: 14px;
+    border-bottom: solid 1px rgba(255, 255, 255, 0.1);
+    text-align: center;
+}

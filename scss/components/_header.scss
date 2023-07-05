@@ -1,0 +1,84 @@
+.header-section {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    padding: 0 15px;
+    padding-top: 1rem;
+    z-index: 99;
+
+    a {
+        color: nth($colors, 3);
+        font-size: 15px;
+        font-weight: 500;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        font-family: "Oswald", sans-serif;
+        position: relative;
+        transition: all 0.3s;
+    }
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+@media only screen and (max-width: 980px) {
+    .header-section {
+        background-color: #1f1f1fa7;
+    }
+}
+
+.header-pages {
+    height: 500px;
+    padding-top: 230px;
+    background-image: url(../images/banner-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    h2 {
+        font-size: 60px;
+        color: nth($colors, 3);
+        text-shadow: 1px 1px 2px nth($colors, 1), 0 0 1em rgba(24, 24, 24, 0.299), 0 0 0.2em rgb(19, 19, 19);
+        font-weight: 600;
+        text-transform: uppercase;
+        margin-bottom: 15px;
+        background-position: center;
+    }
+}
+
+.header-index {
+    margin-bottom: 15%;
+    text-shadow: 1px 1px 2px rgba(19, 19, 19, 0.217), 0 0 1em rgba(24, 24, 24, 0.137), 0 0 0.2em rgba(19, 19, 19, 0.217);
+    text-transform: uppercase;
+    color: nth($colors, 3);
+    font-weight: 700;
+
+    span {
+        display: block;
+        font-size: 20px;
+        letter-spacing: 4px;
+    }
+
+    .text-title {
+        font-size: 100px;
+        position: relative;
+        strong {
+            color: nth($colors, 5);
+        }
+    }
+
+    .title-index {
+        position: relative;
+        top: 0;
+    }
+}
+
+.section-title {
+    text-align: center;
+    margin: 10px;
+
+    h2{
+        color:  nth($colors, 3);;
+    }
+}

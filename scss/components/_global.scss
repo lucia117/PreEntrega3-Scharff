@@ -1,0 +1,86 @@
+html,
+body {
+    height: 100%;
+    font-family: "Muli", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    background: nth($colors, 2);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    font-weight: 400;
+    font-family: "Oswald", sans-serif;
+}
+
+h1 {
+    font-size: 70px;
+}
+
+h2 {
+    font-size: 36px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+h4 {
+    font-size: 24px;
+}
+
+h5 {
+    font-size: 18px;
+}
+
+h6 {
+    font-size: 16px;
+}
+
+p {
+    font-size: 14px;
+    font-family: "Muli", sans-serif;
+    color: nth($colors, 4);
+    font-weight: 400;
+    line-height: 24px;
+    margin: 0 0 15px 0;
+}
+
+/* Button */
+.button {
+    display: inline-block;
+    font-size: 14px;
+    color: nth($colors, 3);
+    line-height: normal;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 17px 30px 16px;
+}
+
+.btn-1 {
+    background: nth($colors, 5);
+    text-decoration: none;
+
+    &:hover {
+        background: nth($colors, 1);
+        border-color: nth($colors, 5);
+    }
+}
+
+.btn-2 {
+    background: transparent;
+    border-width: 2px;
+    border-style: solid;
+    border-color: nth($colors, 5);
+    border-image: initial;
+
+    &:hover {
+        background: nth($colors, 5);
+        border-color: nth($colors, 5);
+    }
+}

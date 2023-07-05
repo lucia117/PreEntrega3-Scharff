@@ -1,0 +1,32 @@
+.card-team {
+    text-align: center;
+    /* padding: 40px 30px 52px; */
+    border: 1px solid #464646;
+    position: relative;
+    background: nth($colors, 2);
+
+    h3 {
+        color: nth($colors, 3);
+    }
+    &:hover {
+        background: nth($colors, 3);
+        border-color: nth($colors, 3);
+        transform: scale3d(1.2, 1.2, 0.3);
+        -webkit-transform: scale3d(1.2, 1.2, 0.3);
+        -moz-transform: scale3d(1.2, 1.2, 0.3);
+
+        h3 {
+            color: #111111;
+        }
+    }
+    .primary-btn {
+        background: nth($colors, 5);
+    }
+}
+
+.card-img-team {
+    width: 60%;
+    border-radius: 50%;
+    margin: 0 auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
