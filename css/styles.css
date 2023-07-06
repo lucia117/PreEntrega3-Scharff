@@ -212,6 +212,11 @@ p {
 }
 
 /*Index*/
+.section-title p {
+  margin-top: 15px;
+  font-size: 18px;
+}
+
 .card {
   background-color: #091014;
   border-radius: 0.25rem;
