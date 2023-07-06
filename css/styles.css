@@ -173,7 +173,7 @@ p {
   color: white;
   text-decoration: none;
 }
-.links ul li:hover {
+.links ul li a:hover {
   color: #E11299;
 }
 

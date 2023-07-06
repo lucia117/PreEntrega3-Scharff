@@ -9,11 +9,12 @@
             a {
                 color: nth($colors, 3);
                 text-decoration: none;
+                &:hover {
+                    color: nth($colors, 5);
+                }
             }
     
-            &:hover {
-                color: nth($colors, 5);
-            }
+            
         }
     }
 
