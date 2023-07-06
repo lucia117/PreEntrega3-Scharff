@@ -1,5 +1,5 @@
 .footer {
-    background: nth($colors, 1 );
+    background: nth($colors, 1);
     color: nth($colors, 3);
 }
 .links {
@@ -13,13 +13,19 @@
                     color: nth($colors, 5);
                 }
             }
-    
-            
         }
     }
-
-    
 }
 .copyright p {
     border-top: 1px solid nth($colors, 4);
+}
+
+.about-company {
+    img {
+        max-width: 15%;
+    }
+
+    a {
+        color: nth($colors, 5);
+    }
 }

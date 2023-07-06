@@ -83,6 +83,29 @@ p {
   border-color: #E11299;
 }
 
+.float-animation {
+  transition: 0.5s, color 0.1s;
+  -webkit-transition: 0.5s, color 0.1s;
+  -moz-transition: 0.5s, color 0.1s;
+}
+.float-animation:hover {
+  background-color: rgba(225, 18, 152, 0.4117647059);
+  transform: translate(0px, 10px);
+  -webkit-transform: translate(0px, 10px);
+  -moz-transform: translate(0px, 10px);
+}
+
+.grow {
+  transition: 0.5s, color 0.1s;
+  -webkit-transition: 0.5s, color 0.1s;
+  -moz-transition: 0.5s, color 0.1s;
+}
+.grow:hover {
+  transform: scale3d(1.5, 1.5, 0.3);
+  -webkit-transform: scale3d(1.5, 1.5, 0.3);
+  -moz-transform: scale3d(1.5, 1.5, 0.3);
+}
+
 .header-section {
   position: absolute;
   left: 0;
@@ -179,6 +202,13 @@ p {
 
 .copyright p {
   border-top: 1px solid #a9a9a9;
+}
+
+.about-company img {
+  max-width: 15%;
+}
+.about-company a {
+  color: #E11299;
 }
 
 /*Index*/

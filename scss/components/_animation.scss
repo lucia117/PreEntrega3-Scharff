@@ -1,0 +1,24 @@
+.float-animation {
+    transition: 0.5s, color 0.1s;
+    -webkit-transition: 0.5s, color 0.1s;
+    -moz-transition: 0.5s, color 0.1s;
+    &:hover {
+        background-color: nth($colors, 6);
+        transform: translate(0px, 10px);
+        -webkit-transform: translate(0px, 10px);
+        -moz-transform: translate(0px, 10px);
+    }
+}
+
+
+.grow{
+    transition: .5s, color .10s;
+        -webkit-transition: .5s, color .10s;
+        -moz-transition: .5s, color .10s;
+        &:hover{
+            transform: scale3d(1.5, 1.5, 0.3);
+                -webkit-transform: scale3d(1.5, 1.5, 0.3);
+                -moz-transform: scale3d(1.5, 1.5, 0.3);
+        }
+}
+              
