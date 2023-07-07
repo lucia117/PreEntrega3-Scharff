@@ -1,11 +1,9 @@
-$text-color:nth($colors, 3);
+$text-color: nth($colors, 3);
 
 @mixin header {
     text-align: center;
-    margin-bottom: 15%;
-    color:  map-get($cabecera , text_color ) ;
+    color: map-get($cabecera, text_color);
 }
-
 
 .nav-section {
     position: absolute;
@@ -17,7 +15,7 @@ $text-color:nth($colors, 3);
     z-index: 99;
 
     a {
-        color: $text-color; 
+        color: $text-color;
         font-size: 18px;
         font-weight: 500;
         text-transform: uppercase;
@@ -33,7 +31,7 @@ $text-color:nth($colors, 3);
 }
 
 .header-pages {
-    @include header(); 
+    @include header();
     height: 500px;
     padding-top: 230px;
     background-image: url(../images/banner-2.jpg);
@@ -44,17 +42,15 @@ $text-color:nth($colors, 3);
         font-size: 60px;
         text-shadow: 1px 1px 2px nth($colors, 1), 0 0 1em rgba(24, 24, 24, 0.299), 0 0 0.2em rgb(19, 19, 19);
         font-weight: 600;
-        text-transform:map-get($cabecera , text_transform ) ;
+        text-transform: map-get($cabecera, text_transform);
         margin-bottom: 15px;
         background-position: center;
     }
 }
 
-
 .header-index {
-    @include header();   
-    
-    text-transform: map-get($cabecera , text_transform );
+    @include header();
+    text-transform: map-get($cabecera, text_transform);
     font-weight: 700;
 
     span {
@@ -66,7 +62,7 @@ $text-color:nth($colors, 3);
     .text-title {
         font-size: 100px;
         position: relative;
-        text-shadow: map-get($cabecera , text_shadow );
+        text-shadow: map-get($cabecera, text_shadow);
         strong {
             color: nth($colors, 5);
         }
@@ -78,10 +74,3 @@ $text-color:nth($colors, 3);
     }
 }
 
-.section-title {
-    @include header();
-
-    h2 {
-        color: $text-color;
-    }
-}

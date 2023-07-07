@@ -142,7 +142,6 @@ p {
 
 .header-pages {
   text-align: center;
-  margin-bottom: 15%;
   color: white;
   height: 500px;
   padding-top: 230px;
@@ -161,7 +160,6 @@ p {
 
 .header-index {
   text-align: center;
-  margin-bottom: 15%;
   color: white;
   text-transform: uppercase;
   font-weight: 700;
@@ -182,15 +180,6 @@ p {
 .header-index .title-index {
   position: relative;
   top: 0;
-}
-
-.section-title {
-  text-align: center;
-  margin-bottom: 15%;
-  color: white;
-}
-.section-title h2 {
-  color: white;
 }
 
 .footer {
@@ -221,8 +210,12 @@ p {
 }
 
 /*Index*/
+.section-title {
+  text-align: center;
+  color: white;
+}
 .section-title p {
-  margin-top: 15px;
+  margin-top: 30px;
   font-size: 17px;
 }
 
