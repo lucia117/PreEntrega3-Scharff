@@ -1,8 +1,12 @@
-$colors: 
-black,
-#151515,
-white,
-#a9a9a9,
-#E11299,
-#e1129869,
-;
+$colors: black, #151515, white, #a9a9a9, #e11299, #e1129869, #333333, #091014;
+
+$cabecera: (
+    text_shadow: (
+        1px 1px 2px black,
+        0 0 1em rgba(24, 24, 24, 0.299),
+        0 0 0.2em rgb(19, 19, 19),
+    ),
+    text_transform: uppercase,
+    text_color: nth($colors, 3),
+    text_position: relative,
+);

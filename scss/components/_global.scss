@@ -51,6 +51,7 @@ p {
 }
 
 /* Button */
+
 .button {
     display: inline-block;
     font-size: 14px;
@@ -63,6 +64,7 @@ p {
 }
 
 .btn-1 {
+    @extend .button;
     background: nth($colors, 5);
     text-decoration: none;
 
@@ -73,6 +75,7 @@ p {
 }
 
 .btn-2 {
+    @extend .button;
     background: transparent;
     border-width: 2px;
     border-style: solid;
@@ -82,5 +85,17 @@ p {
     &:hover {
         background: nth($colors, 5);
         border-color: nth($colors, 5);
+    }
+}
+
+.pricing-btn {
+    @extend .button;
+    display: block;
+    background: nth($colors, 7);
+    text-decoration: none;
+    text-align: center;
+    
+    &:hover {
+        background: nth($colors, 5);
     }
 }

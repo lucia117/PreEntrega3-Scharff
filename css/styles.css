@@ -51,7 +51,7 @@ p {
 }
 
 /* Button */
-.button {
+.button, .pricing-btn, .btn-2, .btn-1 {
   display: inline-block;
   font-size: 14px;
   color: white;
@@ -63,24 +63,34 @@ p {
 }
 
 .btn-1 {
-  background: #E11299;
+  background: #e11299;
   text-decoration: none;
 }
 .btn-1:hover {
   background: black;
-  border-color: #E11299;
+  border-color: #e11299;
 }
 
 .btn-2 {
   background: transparent;
   border-width: 2px;
   border-style: solid;
-  border-color: #E11299;
+  border-color: #e11299;
   border-image: initial;
 }
 .btn-2:hover {
-  background: #E11299;
-  border-color: #E11299;
+  background: #e11299;
+  border-color: #e11299;
+}
+
+.pricing-btn {
+  display: block;
+  background: #333333;
+  text-decoration: none;
+  text-align: center;
+}
+.pricing-btn:hover {
+  background: #e11299;
 }
 
 .float-animation {
@@ -106,7 +116,7 @@ p {
   -moz-transform: scale3d(1.5, 1.5, 0.3);
 }
 
-.header-section {
+.nav-section {
   position: absolute;
   left: 0;
   top: 0;
@@ -115,9 +125,9 @@ p {
   padding-top: 1rem;
   z-index: 99;
 }
-.header-section a {
+.nav-section a {
   color: white;
-  font-size: 15px;
+  font-size: 18px;
   font-weight: 500;
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -130,12 +140,10 @@ p {
   box-shadow: none;
 }
 
-@media only screen and (max-width: 980px) {
-  .header-section {
-    background-color: rgba(31, 31, 31, 0.6549019608);
-  }
-}
 .header-pages {
+  text-align: center;
+  margin-bottom: 15%;
+  color: white;
   height: 500px;
   padding-top: 230px;
   background-image: url(../images/banner-2.jpg);
@@ -144,7 +152,6 @@ p {
 }
 .header-pages h2 {
   font-size: 60px;
-  color: white;
   text-shadow: 1px 1px 2px black, 0 0 1em rgba(24, 24, 24, 0.299), 0 0 0.2em rgb(19, 19, 19);
   font-weight: 600;
   text-transform: uppercase;
@@ -153,10 +160,10 @@ p {
 }
 
 .header-index {
+  text-align: center;
   margin-bottom: 15%;
-  text-shadow: 1px 1px 2px rgba(19, 19, 19, 0.217), 0 0 1em rgba(24, 24, 24, 0.137), 0 0 0.2em rgba(19, 19, 19, 0.217);
-  text-transform: uppercase;
   color: white;
+  text-transform: uppercase;
   font-weight: 700;
 }
 .header-index span {
@@ -167,9 +174,10 @@ p {
 .header-index .text-title {
   font-size: 100px;
   position: relative;
+  text-shadow: 1px 1px 2px black, 0 0 1em rgba(24, 24, 24, 0.299), 0 0 0.2em rgb(19, 19, 19);
 }
 .header-index .text-title strong {
-  color: #E11299;
+  color: #e11299;
 }
 .header-index .title-index {
   position: relative;
@@ -178,7 +186,8 @@ p {
 
 .section-title {
   text-align: center;
-  margin: 10px;
+  margin-bottom: 15%;
+  color: white;
 }
 .section-title h2 {
   color: white;
@@ -197,7 +206,7 @@ p {
   text-decoration: none;
 }
 .links ul li a:hover {
-  color: #E11299;
+  color: #e11299;
 }
 
 .copyright p {
@@ -208,13 +217,13 @@ p {
   max-width: 15%;
 }
 .about-company a {
-  color: #E11299;
+  color: #e11299;
 }
 
 /*Index*/
 .section-title p {
   margin-top: 15px;
-  font-size: 18px;
+  font-size: 17px;
 }
 
 .card {
@@ -238,8 +247,8 @@ p {
 }
 .card_image img {
   width: 100%;
-  max-width: 800px;
   height: 100%;
+  max-width: 800px;
   object-fit: cover;
 }
 .card_image:after {
@@ -272,7 +281,7 @@ p {
 }
 
 .tbl-header {
-  background-color: #E11299;
+  background-color: #e11299;
 }
 
 .tbl-content {
@@ -306,30 +315,13 @@ td {
 }
 .card-body h2 {
   font-size: 60px;
-  color: #E11299;
+  color: #e11299;
   text-align: center;
 }
 
 .card-img {
   border-bottom-right-radius: 0;
   border-bottom-left-radius: 0;
-}
-
-.pricing-btn {
-  display: block;
-  background: #333333;
-  color: white;
-  font-size: 14px;
-  padding: 17px 30px 16px;
-  line-height: normal;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  font-weight: 700;
-  text-decoration: none;
-  text-align: center;
-}
-.pricing-btn:hover {
-  background: #E11299;
 }
 
 /*Actividades*/
@@ -404,7 +396,6 @@ td {
 /*Equipo*/
 .card-team {
   text-align: center;
-  /* padding: 40px 30px 52px; */
   border: 1px solid #464646;
   position: relative;
   background: #151515;
@@ -423,7 +414,7 @@ td {
   color: #111111;
 }
 .card-team .primary-btn {
-  background: #E11299;
+  background: #e11299;
 }
 
 .card-img-team {
