@@ -93,6 +93,10 @@ p {
   background: #e11299;
 }
 
+.nav-item:hover a {
+  color: #e11299;
+}
+
 .float-animation {
   transition: 0.5s, color 0.1s;
   -webkit-transition: 0.5s, color 0.1s;
@@ -415,6 +419,35 @@ td {
   border-radius: 50%;
   margin: 0 auto;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/*Contacto*/
+.contact-section {
+  margin-top: 2rem;
+}
+.contact-section i {
+  font-size: 30px;
+  color: #e11299;
+  display: inline-block;
+  height: 50px;
+  width: 50px;
+  background: white;
+  border-radius: 50%;
+  line-height: 50px;
+  text-align: center;
+  margin-right: 20px;
+}
+
+.input-form {
+  font-size: 13px;
+  color: #c4c4c4;
+  width: 100%;
+  height: 46px;
+  border: 1px solid #363636;
+  padding-left: 20px;
+  padding-right: 5px;
+  background: transparent;
+  margin-bottom: 20px;
 }
 
 /*# sourceMappingURL=styles.css.map */

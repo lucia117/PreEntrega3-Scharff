@@ -99,3 +99,9 @@ p {
         background: nth($colors, 5);
     }
 }
+
+.nav-item:hover{
+    a{
+    color: nth($colors, 5);
+    }
+}

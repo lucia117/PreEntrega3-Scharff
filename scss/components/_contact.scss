@@ -1,0 +1,31 @@
+.contact-section{
+    margin-top: 2rem;
+
+    i {
+        font-size: 30px;
+        color: nth($colors, 5);
+        display: inline-block;
+        height: 50px;
+        width: 50px;
+        background:nth($colors, 3);
+        border-radius: 50%;
+        line-height: 50px;
+        text-align: center;
+        margin-right: 20px;
+    }
+}
+
+.input-form {
+    font-size: 13px;
+    color: #c4c4c4;
+    width: 100%;
+    height: 46px;
+    border: 1px solid #363636;
+    padding-left: 20px;
+    padding-right: 5px;
+    background: transparent;
+    margin-bottom: 20px;
+}
+
+
+
