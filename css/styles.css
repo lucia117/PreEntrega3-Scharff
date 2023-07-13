@@ -85,7 +85,7 @@ p {
 
 .pricing-btn {
   display: block;
-  background: #333333;
+  background: rgba(51, 51, 51, 0.6274509804);
   text-decoration: none;
   text-align: center;
 }
@@ -140,6 +140,11 @@ p {
   transition: all 0.3s;
 }
 
+@media (max-width: 800px) {
+  .nav-section {
+    background-color: rgba(51, 51, 51, 0.6274509804);
+  }
+}
 .navbar-toggler:focus {
   box-shadow: none;
 }
@@ -424,6 +429,9 @@ td {
 /*Contacto*/
 .contact-section {
   margin-top: 2rem;
+}
+.contact-section h3 {
+  color: white;
 }
 .contact-section i {
   font-size: 30px;

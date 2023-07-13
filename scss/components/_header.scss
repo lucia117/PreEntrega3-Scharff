@@ -26,6 +26,12 @@ $text-color: nth($colors, 3);
     }
 }
 
+@media (max-width: 800px) {
+    .nav-section {
+        background-color: nth($colors, 7 ) ;
+    }
+  }
+
 .navbar-toggler:focus {
     box-shadow: none;
 }
